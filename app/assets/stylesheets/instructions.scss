@@ -1,3 +1,18 @@
 // Place all the styles related to the Instructions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+$bg_color: rgba(192, 207, 216, 1);
+$header_color: rgba(200, 213, 220, 1);
+$default_white_text_color: #fff;
+
+html body{
+  background-color: $bg_color;
+  color: $default_white_text_color;
+}
+
+header{
+  background-color: $header_color;
+  text-align: center;
+  border-bottom: 1px solid rgba(181, 193, 200, 1);
+}
